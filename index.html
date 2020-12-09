@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Startup Foundry</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/df5ca9d0fd.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="headerContainer">
+                    <div class="header">
+                        <h1>Find Study Material for your subject</h1>
+                    </div>
+                    <div class="searchBar">
+                        <div class="searchBar__option">
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-primary dropdown-toggle searchBar__option__button--uni"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                >
+                                    University
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown__items--uni">
+                                        <a href="#">Sunway University</a>
+                                    </li>
+                                    <li class="dropdown__items--uni">
+                                        <a href="#">Inti University</a>
+                                    </li>
+                                    <li class="dropdown__items--uni">
+                                        <a href="#">KDU</a>
+                                    </li>
+                                    <li class="dropdown__items--uni">
+                                        <a href="#">Monash University</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="searchBar__option">
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-primary dropdown-toggle searchBar__option__button--course"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                >
+                                    Choose Your Course
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown__items--course">
+                                        <a href="#">Computer Science</a>
+                                    </li>
+                                    <li class="dropdown__items--course">
+                                        <a href="#">Economics</a>
+                                    </li>
+                                    <li class="dropdown__items--course">
+                                        <a href="#">Physics</a>
+                                    </li>
+                                    <li class="dropdown__items--course">
+                                        <a href="#">Physics</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="searchBar__option">
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-primary dropdown-toggle searchBar__option__button--subject"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                >
+                                    Choose Your Subject
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown__items--subject">
+                                        <a href="#">Object Oriented Programming</a>
+                                    </li>
+                                    <li class="dropdown__items--subject">
+                                        <a href="#">Data Structure</a>
+                                    </li>
+                                    <li class="dropdown__items--subject">
+                                        <a href="#">Machine Learning</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="searchBar__option">
+                            <button
+                                type="button"
+                                class="btn btn-info searchBar__option__button"
+                            >
+                                Search
+                            </button>
+                        </div>
+                </div>
+                
+             
+            </div>
+        </main>
+        <div class="container filterContainer">
+            <span>Filter by:</span>
+            <button type="button" class="btn btn-outline-success btn-sm filterButton">Notes</button>
+            <button type="button" class="btn btn-outline-success btn-sm filterButton">MindMap</button>
+            <button type="button" class="btn btn-outline-success btn-sm filterButton">FlashCard</button>
+            <button type="button" class="btn btn-outline-success btn-sm filterButton">Videos</button>
+            <button type="button" class="btn btn-outline-success btn-sm filterButton">Practice Questions</button>
+            <button type="button" class="btn btn-outline-danger btn-sm filterButton">Essay</button>
+            <div class="bag"> <img src="bag2.png" alt="">             <span>0</span></div>
+        </div>
+
+        <div class="placeholder">
+            <img src="note.png" alt="">
+
+        </div>
+        
+        </div>
+        <div class="container card__container none">
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://www.edrawsoft.com/templates/images/computer-science-project-mind-map.png"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Computer Science Mindmap</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quas error, eaque ut reru?
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                        >View </a>
+                    <a href="#" class="btn btn-primary"
+                        >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://datacamp-community-prod.s3.amazonaws.com/3a5755d3-35ee-4ce1-a5a0-4565419e381a"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Common Python techniques</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ut minima impedit facere.
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                        >View </a>
+                    <a href="#" class="btn btn-primary"
+                        >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://www.guru99.com/images/1/012419_1126_11BestPytho7.jpg"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Python For Data Analysis, Chapter 2 Summary
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quia aliquid corr
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                    >View </a>
+                <a href="#" class="btn btn-primary"
+                    >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://img-a.udemycdn.com/course/750x422/1702222_e129.jpg"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Python Algorithm Practice</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                        >View </a>
+                    <a href="#" class="btn btn-primary"
+                        >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://i.ytimg.com/vi/41qgdwd3zAg/hqdefault.jpg"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Python Fundamental Part 1 (Video Series)
+                    </h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Neque corrupti assumenda sint quam! Nostrum.
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                        >View </a>
+                    <a href="#" class="btn btn-primary"
+                        >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem">
+                <img
+                    class="card-img-top"
+                    src="https://www.computerhope.com/jargon/m/machine-cycle.jpg"
+                    alt="Card image cap"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Understand Machine Cycle</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dignissimos sed nesciunt esse?
+                    </p>
+                    <a href="#" class="btn btn-success btn__view"
+                        >View </a>
+                    <a href="#" class="btn btn-primary"
+                        >Add  <i class="fas fa-plus-circle"></i></a>
+                </div>
+            </div>
+          
+          
+        </div>
+        <div class="loadMore">
+            <button type="button" class="btn btn-outline-primary ">Load More</button>
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Nam, expedita tenetur amet autem eum omnis!
+                            Nobis distinctio veniam iusto explicabo odio,
+                            perferendis cupiditate illum. Commodi consequuntur
+                            pariatur iusto rerum natus praesentium repudiandae,
+                            ut facilis rem tempore!
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Categories</h6>
+                        <ul class="footer-links">
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/category/c-language/"
+                                    >Notes</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/category/front-end-development/"
+                                    >Mindmap</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/category/back-end-development/"
+                                    >Summary</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/category/java-programming-language/"
+                                    >Tutorial</a
+                                >
+                            </li>
+                            <li>
+                                <a href="http://scanfcode.com/category/android/"
+                                    >Sample Essay</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/category/templates/"
+                                    >Flash Card</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="http://scanfcode.com/about/"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="http://scanfcode.com/contact/"
+                                    >Contact Us</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://scanfcode.com/contribute-at-scanfcode/"
+                                    >Contribute</a
+                                >
+                            </li>
+                            <li>
+                                <a href="http://scanfcode.com/privacy-policy/"
+                                    >Privacy Policy</a
+                                >
+                            </li>
+                            <li>
+                                <a href="http://scanfcode.com/sitemap/"
+                                    >Sitemap</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">
+                            Copyright &copy; 2020 All Rights Reserved by
+                            <a href="#">MILO PENG</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li>
+                                <a class="facebook" href="#"
+                                    ><i class="fab fa-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a class="dribbble" href="#"
+                                    ><i class="fab fa-dribbble"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="#"
+                                    ><i class="fab fa-linkedin"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+            integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="index.js"></script>
+    </body>
+</html>
